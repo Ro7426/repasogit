@@ -1,0 +1,43 @@
+.navbarra{
+    background: salmon;
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;  
+ }
+
+ .navbarra:hover{
+
+    background: rgb(24, 77, 175);
+    padding: 10px;
+ }
+
+ .mapa{
+
+    align-self: center;
+    background: coral;
+    border: 20px;
+
+ }
+ nav{
+     background: cornflowerblue;
+     padding: 10px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ p{
+     font-family: 'ZCOOL KuaiLe', cursive;
+ }
+
+ .parrafo2{
+
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'Cormorant Unicase', serif;
+ }
+
+ @media (max-width: 600px){
+     nav{
+         display: none;
+         flex-direction: column;
+     }
